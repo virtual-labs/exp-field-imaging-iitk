@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary btn-block" id="start_button" onclick="start()"><h1>Start Experiment!</h1></button>
+    <div class="container-fluid main-wrapper" id="container">
+        <div class="row ucontrol">
+            <div class="col-3">
+                <div class="panel mb-1">
+                    <div class="panel-head">
+                        Instructions
+                    </div>
+                    <div id="type_text">
+                        <p id="demo1"></p>
+                        <p id="demo2"></p>
+                        <p id="demo3"></p>
+                        <p id="demo4"></p>
+                    </div>
+
+                </div>
+                <div class="panel padd">
+                    <!------------------------------------------Material Choose------------------------------------->
+                    <div class="but sm w-100 blue">Material</div> <br><br>
+                    <div id="select1">
+                        <button type="button" class="btn btn-success" id="btn1" onclick="clickbtn(1)">Material
+                            1</button>
+                        <button type="button" class="btn btn-success" id="btn2" onclick="clickbtn(2)">Material
+                            2</button>
+                        <button type="button" class="btn btn-success" id="btn3" onclick="clickbtn(3)">Material
+                            3</button>
+                    </div>
+                    <br>
+                    <div class="but sm w-100 blue" id="field_image">Field Image</div>
+                    <br>
+                    <button id="btn_id1" class = "btn_field" onclick="field(1)">Bright Field</button>
+                    <button id="btn_id2" class = "btn_field" onclick="field(2)">Dark Field</button>
+                    <br><br>
+                    <button type="button" class="btn btn-success" onclick="voltagefunction()" id="execute_button">Execute</button>
+                    <button onclick="document.location.reload(true)" id="reset_button" class="btn btn-success">Reset</button>
+                </div><br>
+            </div>
+
+            <div class="col-3">
+              
+                <div class="panel">
+                    <img src="../images/tem_machine.png" alt="" id="image1" style="width: 100%;">
+                   
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="panel padd" id="image_display">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!----------------------Task html-------------------->
+    <!-- <div class="container1" id="container1">
+        <div class="heading"><h1>Task:Field Imaging</h1></div>
+        <div class="instruction">
+            <div class="headings2"><h2>Instructions:</h2>
+                <p id="demo5"></p>
+                <p id="demo6"></p>
+                <p id="demo7"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 main">
+                <h3>Select Material</h3>
+                <button class="btn btn-warning" onclick="material(1)" id="m1">Material 1</button>
+                <button class="btn btn-warning" onclick="material(2)" id="m2">Material 2</button>
+                <button class="btn btn-warning" onclick="material(3)" id="m3">Material 3</button>
+                <br>
+                <h3>Select Field type</h3>
+                <button class="btn btn-primary" onclick="field1(1)" id="bright">Bright Field</button>
+                <button class="btn btn-primary" onclick="field1(2)" id="dark">Dark Field</button>
+                <br>
+                <br>
+                <button onclick="document.location.reload(true)" id="reset_button" class="btn btn-danger">Reset</button>
+                <button class="btn btn-success" onclick="validate()" id="validate_button">Validate</button><br>
+            </div>
+            <div class="col-6">
+                <img src="../images/image1.png" alt="">
+            </div>
+        </div>
+    </div> -->
+    <div id="toast-wrapper" aria-live="polite" aria-atomic="true" style="position:fixed;bottom:1rem;right:1rem;">
+
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script>
+        const typeSpeed = 30;
+        var timerId, typeTarget = $("#typer");
+        function type(txt, cur = 0) {
+            if (cur == txt.length) {
+                timerId = -1;
+                return;
+            }
+            if (cur == 0) {
+                typeTarget.html("");
+                clearTimeout(timerId);
+            }
+            typeTarget.append(txt.charAt(cur));
+            timerId = setTimeout(type, typeSpeed, txt, cur + 1);
+        }
+        // type("this is test")
+    </script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
