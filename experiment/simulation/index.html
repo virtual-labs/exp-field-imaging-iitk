@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <iframe src="" height="900" style="width:100%;" id="iframe"></iframe>
+    <button class="btn btn-success btn-lg" onclick="next()" style="display: block;">Next Experiment</button>
 </body>
+<script>
+    iframe.src = "./html/index.html";
+    function next() {
+        iframe.src = "./html/canvas.html";
+    }
+</script>
+
 </html>
