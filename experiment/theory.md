@@ -12,9 +12,9 @@ Amplitude contrast is obtained when there is preferential absorption of electron
 
 The selection of the direct beam or diffracted beam is analogous to capturing the information concerning that particular feature the beam has interacted with. If certain crystals have diffracted the incident beam, the scattering will occur as per Bragg’s condition. But, the orientation of each feature in similar fashion will scatter it at same angle. Thus, imaging from one diffracted beam (keeping the aperture and allowing it to form an image) may show few features bright (and the field will be dark). Important point to note here is that if another diffracted beam is allowed to pass through, then some other features will appear bright (and the field will remain dark). In summary, each diffracted spot is appearing due to specific orientation of certain features, which will start to appear bright if that diffracted beam is allowed to form the image. And in bright field mode, those features may or may not appear bright.<br>
 <video width="320" height="240" controls>
-  <source src="images/"exp6-BF-DF-Imaging.mp4 type="video/mp4">
+  <source src="images/exp6-BF-DF-Imaging.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
-Fig:Video on Bright Field Imaging and Dark Field Imaging
+Video on Bright Field Imaging and Dark Field Imaging
 
 
