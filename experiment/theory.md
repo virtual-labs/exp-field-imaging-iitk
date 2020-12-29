@@ -7,7 +7,7 @@
 </video><br>Video on Bright Field Imaging and Dark Field Imaging</div>
 </div>
 <br><br>
-<img src="images/bf.PNG"><br>
+<img src="images/bf.PNG" width="384"><br>
 <img src="images/df.PNG" width="384"><br><br>
 Fig. 1: a) direct beam is allowed to pass through for forming a bright field image, and b) diffracted beam being allowed to pass through in order to form dark field image.<br><br>
 <img src="images/bfdf_c.jpg"><br>
