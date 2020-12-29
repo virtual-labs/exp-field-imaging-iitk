@@ -12,7 +12,8 @@
 Fig. 1: a) direct beam is allowed to pass through for forming a bright field image, and b) diffracted beam being allowed to pass through in order to form dark field image.<br><br>
 <img src="images/bfdf_c.jpg"><br>
 Fig. 2: TEM Micrographs of a ceramic material showing a) bright field (Image1), and b) dark field (Image 2).<br><br>
-
+<div style="content: '.';clear: both;display: block;height: 0;visibility: hidden;"></div>
+<div style ="text-align: justify;text-justify: inter-word;">
 It is important to highlight the contrast in the TEM images. Contrast is defined as the ratio of intensity of the signal from feature to that of the background. As the features appear dark, and the field appears bright, hence the features are sometimes missed during analysis. But, the dark field imaging (see Fig. 2b) highlights the features appearing brighter. Hence the features can be highlighted and deciphered from the nearby regions. There are other ways in which the contrast is naturally obtained in the TEM images, which include amplitude contrast and phase contrast. <br><br>
 Amplitude contrast is obtained when there is preferential absorption of electron due to higher thickness or its scattering (or diffraction). Amplitude contrast can be classified into: (i)  mass-thickness contrast, wherein high mass (or thickness) scatters the incident electrons to higher angles, which go undetected by the objective aperture, or (ii) diffraction contrast, wherein the electron beam gets selectively diffracted (or appropriately oriented crystalline region) of the specimen.<b> Phase contrast</b> is obtained when the electron interaction with matter shifts the waves of similar thickness materials (but of different phases or orientation). Thus, this contrast can also be utilised to separate out the different density or regions with different atoms, or even with different atomic density (or planar density). 
 <br>
