@@ -1,13 +1,12 @@
 ## Bright Field/ Dark Field:
-<div><div style="float:left;width:55%;text-align: justify;text-justify: inter-word; margin-right:40px;">In the imaging mode, bright field image is obtained if the signal is collected on the screen when the direct beam (on the back focal plane of objective lens) is captured to form image after it transmits through the sample (Fig. 1a). On the other hand, dark field image is obtained when the diffracted beam (on the back focal plane of objective lens) is captured to form image. It may be noted that the diffraction pattern (Fig. 2c) has the diffracted pattern (mostly from multiple nanocrystalline regions) and also from the direct beam (central spot).</div>
+<div><div style="float:left;width:55%;text-align: justify;text-justify: inter-word; margin-right:40px;">In the imaging mode, bright field image is obtained if the signal is collected on the screen when the direct beam (on the back focal plane of objective lens) is captured to form image after it transmits through the sample (Fig. 1a). On the other hand, dark field image is obtained when the diffracted beam (on the back focal plane of objective lens) is captured to form image. It may be noted that the diffraction pattern (Fig. 2c) has the diffracted pattern (mostly from multiple nanocrystalline regions) and also from the direct beam (central spot).If the direct beam is allowed to pass through, it forms a bright field image (Fig. 2b). It may be noted in the bright field image (Fig. 2b) that the background is bright, and features are dark (hence the name: bright field image). Whereas, one of the diffracted beam is allowed to form image as dark-field image (Fig. 2c). It may be noted that the background is dark, and the features appear bright (hence the name: ‘dark field image’). </div>
 <div style="float:left;width:40%;border: solid 1 px black;">
 <video width="320" height="240" controls>
   <source src="images/exp6-BF-DF-Imaging.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>Video on Bright Field Imaging and Dark Field Imaging</div>
-</div> 
-<div style="content: '.';clear: both;display: block;height: 0;visibility: hidden;"></div>
-<div style ="text-align: justify;text-justify: inter-word;">If the direct beam is allowed to pass through, it forms a bright field image (Fig. 2b). It may be noted in the bright field image (Fig. 2b) that the background is bright, and features are dark (hence the name: bright field image). Whereas, one of the diffracted beam is allowed to form image as dark-field image (Fig. 2c). It may be noted that the background is dark, and the features appear bright (hence the name: ‘dark field image’). <br><br>
+</div>
+<br><br>
 <img src="images/bf.PNG"><br>
 <img src="images/df.PNG" width="384"><br><br>
 Fig. 1: a) direct beam is allowed to pass through for forming a bright field image, and b) diffracted beam being allowed to pass through in order to form dark field image.<br><br>
