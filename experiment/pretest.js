@@ -89,7 +89,7 @@
 
 
     const myQuestions = [{
-            question: "1.Which of the following is used to obtain bright field imaging?", ///// Write the question inside double quotes
+            question: "1. Which of the following is used to obtain bright field imaging?", ///// Write the question inside double quotes
             answers: {
                 a: "Elastically scattered electrons", ///// Write the option 1 inside double quotes
                 b: "Inelastically scattered electrons", ///// Write the option 2 inside double quotes
@@ -100,7 +100,7 @@
         },
 
         {
-            question: "2.Which of the following is used to obtain dark field imaging?", ///// Write the question inside double quotes
+            question: "2. Which of the following is used to obtain dark field imaging?", ///// Write the question inside double quotes
             answers: {
                 a: "Elastically scattered electrons ", ///// Write the option 1 inside double quotes
                 b: "Inelastically scattered electrons  ", ///// Write the option 1 inside double quotes
@@ -113,7 +113,7 @@
         ///// this line
 
         {
-            question: "3.The bright field image can be obtained when the aperture is placed at:", ///// Write the question inside double quotes
+            question: "3. The bright field image can be obtained when the aperture is placed at:", ///// Write the question inside double quotes
             answers: {
                 a: "back-focal plane of objective lens", ///// Write the option 1 inside double quotes
                 b: "image plane of objective lens", ///// Write the option 1 inside double quotes
@@ -123,7 +123,7 @@
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
         {
-            question: "4.The diffraction pattern can be obtained when the aperture is placed at:", ///// Write the question inside double quotes
+            question: "4. The diffraction pattern can be obtained when the aperture is placed at:", ///// Write the question inside double quotes
             answers: {
                 a: "back-focal plane of objective lens", ///// Write the option 1 inside double quotes
                 b: "image plane of objective lens", ///// Write the option 1 inside double quotes

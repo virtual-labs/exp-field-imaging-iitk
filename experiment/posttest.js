@@ -90,7 +90,7 @@
 
   const myQuestions = [
      {
-            question: "1.The bright field imaging contrast in TEM can NOT be increased by enhancing:", ///// Write the question inside double quotes
+            question: "1. The bright field imaging contrast in TEM can NOT be increased by enhancing:", ///// Write the question inside double quotes
             answers: {
                 a: "mass-thickness difference of existing constituents", ///// Write the option 1 inside double quotes
                 b: "selective diffraction of existing constituents", ///// Write the option 1 inside double quotes
@@ -101,7 +101,7 @@
         },
 
         {
-            question: "2.Bright field image is obtained when ________________ beam is captured to form image after it transmits through the sample", ///// Write the question inside double quotes
+            question: "2. Bright field image is obtained when ________________ beam is captured to form image after it transmits through the sample", ///// Write the question inside double quotes
             answers: {
                 a: "Direct beam", ///// Write the option 1 inside double quotes
                 b: "Diffracted beam", ///// Write the option 1 inside double quotes
