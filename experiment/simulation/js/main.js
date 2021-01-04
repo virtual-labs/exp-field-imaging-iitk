@@ -10,10 +10,10 @@ function start() {
     document.getElementById("start_button").style.display = "none";
 
     var i = 0;
-    var txt = '1. Select the Material.';
+    var txt = '1. Select the Material by clicking on material button.';
     var speed = 50;
     typeWriter();
-    textToSpeech("select the material");
+    textToSpeech("select the material by clicking on material button.");
     function typeWriter() {
         if (i < txt.length) {
             document.getElementById("demo1").innerHTML += txt.charAt(i);
@@ -36,10 +36,10 @@ function clickbtn(val) {
     c = val;
     img = document.createElement('img');
     var i = 0;
-    var txt = '2. Now select the type of Field.(Bright/Dark).';
+    var txt = '2. Now select the type of Field.(Bright/Dark) by clicking on Bright field/Dark Field Button.';
     var speed = 50;
     typeWriter();
-    textToSpeech("now select the type of field(bright/dark)");
+    textToSpeech("now select the type of field(bright/dark) by clicking on Bright field/Dark Field Button");
     function typeWriter() {
         if (i < txt.length) {
             document.getElementById("demo2").innerHTML += txt.charAt(i);
