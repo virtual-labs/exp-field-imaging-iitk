@@ -117,7 +117,7 @@ function voltagefunction() {
    setTimeout(function () {document.getElementById('image_display').style.display='block'}, 12000);
     console.log(c);
     var i = 0;
-    var txt = '4. Image is displayed accordingly.';
+    var txt = '4. Image is displayed accordingly, Click on Task button at the bottom to go to the task page.';
     var speed = 50;
     typeWriter();
     textToSpeech("image is displayed accordingly");
