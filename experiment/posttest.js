@@ -124,7 +124,7 @@
         },
         
         {
-            question: "4. The following TEM micrograph is _________________ image.<img src='images/1.jpg'>", ///// Write the question inside double quotes
+            question: "4. The following TEM micrograph is _________________ image.<br><img src='images/1.jpg'>", ///// Write the question inside double quotes
             answers: {
                 a: "Dark field image", ///// Write the option 1 inside double quotes
                 b: "bright field image", ///// Write the option 1 inside double quotes
@@ -133,7 +133,7 @@
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
         {
-            question: "5. The following TEM micrograph is _________________ image.<img src='images/2.jpg'>", ///// Write the question inside double quotes
+            question: "5. The following TEM micrograph is _________________ image.<br><img src='images/2.jpg'>", ///// Write the question inside double quotes
             answers: {
                 a: "Dark field image", ///// Write the option 1 inside double quotes
                 b: "bright field image", ///// Write the option 1 inside double quotes
