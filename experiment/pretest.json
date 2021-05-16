@@ -1,0 +1,37 @@
+[{
+	"question": "1. Which of the following is used to obtain bright field imaging?",
+	"answers": {
+		"a": "Elastically scattered electrons",
+		"b": "Inelastically scattered electrons",
+		"c": "Transmitted electrons",
+		"d": "X-rays"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "2. Which of the following is used to obtain dark field imaging?",
+	"answers": {
+		"a": "Elastically scattered electrons ",
+		"b": "Inelastically scattered electrons  ",
+		"c": "Transmitted electrons",
+		"d": "X-rays "
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. The bright field image can be obtained when the aperture is placed at:",
+	"answers": {
+		"a": "back-focal plane of objective lens",
+		"b": "image plane of objective lens",
+		"c": "front-focal plane of projection lens",
+		"d": "image plane of objective lens"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "4. The diffraction pattern can be obtained when the aperture is placed at:",
+	"answers": {
+		"a": "back-focal plane of objective lens",
+		"b": "image plane of objective lens",
+		"c": "front-focal plane of projection lens",
+		"d": "image plane of objective lens"
+	},
+	"correctAnswer": "b"
+}]
