@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <iframe src="" height="800" style="width:100%;" id="iframe"></iframe>
+    <button class="btn btn-success btn-lg" onclick="next()" style="display: block;">Task</button>
+<script src="../assets/js/iframeResize.js"></script></body>
+<script>
+    iframe.src = "./html/index.html";
+    function next() {
+        iframe.src = "./html/canvas.html";
+    }
+</script>
+
+</html>

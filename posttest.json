@@ -1,0 +1,42 @@
+[{
+	"question": "1. The bright field imaging contrast in TEM can NOT be increased by enhancing:",
+	"answers": {
+		"a": "mass-thickness difference of existing constituents",
+		"b": "selective diffraction of existing constituents",
+		"c": "absorption between phase of existing constituents",
+		"d": "accelerating voltage for imaging of existing constituents"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2. Bright field image is obtained when ________________ beam is captured to form image after it transmits through the sample",
+	"answers": {
+		"a": "Direct beam",
+		"b": "Diffracted beam",
+		"c": "Inelastically scattered beam",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. Dark field image is obtained when ________________ beam is captured to form image after it transmits through the sample",
+	"answers": {
+		"a": "Direct beam",
+		"b": "Diffracted beam",
+		"c": "Inelastically scattered beam",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "4. The following TEM micrograph is _________________ image.<br><img src='images/1.jpg'>",
+	"answers": {
+		"a": "Dark field image",
+		"b": "bright field image"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "5. The following TEM micrograph is _________________ image.<br><img src='images/2.jpg'>",
+	"answers": {
+		"a": "Dark field image",
+		"b": "bright field image"
+	},
+	"correctAnswer": "b"
+}]
